@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    background-color: rgb(221,221,221);
+}
+
+.header .social-media img:first-child{
+    background-color: rgb(33,185,235);
+    border: 0;
+    border-radius: 50%;
+  
+}
+
+.header .social-media img{
+    width: 30px;
+    margin: 4px;
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.header .date-time p{
+    margin-bottom: 0;
+}
+
+header nav ul li{
+    display: inline;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: adobe arabic,Helvetica,Roboto,sans-serif;
+    /* border-left: 4px solid rgb(33,185,235); */
+}
+
+.bg-taza{
+    background-color: rgb(33,185,235);
+}
+
+.news h5{
+    font-family: adobe arabic,Helvetica,Roboto,sans-serif;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.breaking h1{
+    font-family: adobe arabic,Helvetica,Roboto,sans-serif;
+    color: rgb(33,185,235);
+}
+
+.breaking{
+    border-bottom: 4px solid rgb(33,185,235);
+    margin-bottom: 16px;
+}
+
+.breaking-detalis{
+    border-left: 4px solid rgb(74, 201, 243);
+    padding: 12px;
+}
+
+.bg-video{
+    background-color: rgb(47,47,47);
+}
+
+.heading-pakistan{
+    cursor: pointer;
+}
+
+.heading-pakistan h1{
+    font-family: adobe arabic,Helvetica,Roboto,sans-serif;
+    color: rgb(33,185,235);
+    font-weight: 600;
+   
+}
+
+.heading-pakistan .h-border{
+    border-bottom: 4px solid rgb(33,185,235);
+    margin-bottom: 25px;
+}
+
+.heading-pakistan .heading-news p{
+    font-family: adobe arabic,Helvetica,Roboto,sans-serif;
+    font-weight: 550;
+}
+
+.heading-pakistan .heading-news h5:hover{
+    color: rgb(33,185,235);
+}
+
+.showbiz-bg{
+    background-image: linear-gradient(white, rgb(209, 202, 202));
+}
+
+.showbiz-text h3:hover{
+    color: rgb(33,185,235);
+}
+
+.showbiz-text p{
+    font-family: adobe arabic,Helvetica,Roboto,sans-serif;
+    font-weight: 550;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+
+.shobiz-next p:hover{
+    color: rgb(33,185,235);
+    cursor: pointer;
+}
+
+.shobiz-next i{
+    background-color: rgb(33,185,235);
+    padding: 6px;
+    border-radius: 50%;
+    color: white;
+}
+
+footer{
+    background-color: rgb(52,52,52);
+    color: white;
+    padding: 18px;
+}
+
+ul{
+    list-style: none;
+}
+
+footer .footer-menu ul li{
+    display: inline;
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    border-left: 2px solid gray;
+    padding-left: 8px;
+}
+
+footer .footer-menu ul li:last-child{
+    border: 0;
+}
+
+footer .privesi ul li{
+    display: inline;
+    border-left: 2px solid gray;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+footer .privesi ul li:last-child{
+    border: 0
+};
